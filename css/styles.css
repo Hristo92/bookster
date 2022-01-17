@@ -1,5 +1,5 @@
 
-.site-wrapper{
+body{
   background-color: #DCDCDC;
 }
 
@@ -155,4 +155,69 @@ i:hover{
 
 .promo{
   text-align: center;
+}
+
+
+
+
+/* media */
+
+@media screen and (min-width: 410px) {
+
+  body{
+    max-width: 100%;
+  }
+
+  .about{
+    text-align: center;
+  }
+
+  .form{
+    text-align: center;
+  }
+
+  .form > input{
+    size: 20;
+  }
+
+  .followus{
+    margin-top: 50px;
+  }
+
+  .promo{
+    margin-top: 25px;
+  }
+
+  .container-text-1{
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .container-text{
+    max-width: 100%;
+    margin: 0;
+  }
+
+
+}
+@media screen and (max-width: 899px) {
+  .about{
+    text-align: center;
+  }
+
+  .form{
+    text-align: center;
+  }
+
+  .form > input{
+    size: 20;
+  }
+
+  .followus{
+    margin-top: 50px;
+  }
+
+  .promo{
+    margin-top: 25px;
+  }
 }
