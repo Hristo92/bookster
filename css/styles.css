@@ -198,7 +198,7 @@ i:hover{
 
 /* media */
 
-@media screen and (min-width: 410px) {
+@media screen and (min-device-width: 374px) and (max-device-width: 920px) {
 
   body{
     max-width: 100%;
@@ -240,15 +240,11 @@ i:hover{
   }
 
   .masondry-grid{
-        width: 100%;
-    }
+    width: 100%;
+    display: block;
+  }
 
   .masondry-grid .article{
         padding: 0 10px !important;
-    }
-
-
-}
-@media screen and (max-width: 899px) {
-
+  }
 }
