@@ -198,7 +198,7 @@ i:hover{
 
 /* media */
 
-@media screen and (min-device-width: 374px) and (max-device-width: 920px) {
+@media screen and (min-device-width: 373px) and (max-device-width: 920px) {
 
   body{
     max-width: 100%;
